@@ -1,0 +1,14 @@
+/* CSS for adding content example */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800italic);
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0px;
+  padding: 0px;
+}
+
+#wrapper {
+  max-width: 320px;
+  margin: 10px auto;
+}
