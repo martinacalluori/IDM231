@@ -1,0 +1,38 @@
+body {
+  margin: 12px;
+  background-color: #333333;
+  /* transition on change */
+  opacity: 1;
+  transition: 3s opacity;
+}
+
+body.blackScreen {
+  opacity: 0;
+  transition: none;
+}
+
+#wrapper {
+  background-color: #cca831;
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center;
+}
+
+#allpics {
+  position: relative;
+  width: 512px;
+  height: 512px;
+  margin: 0 auto 10px;
+}
+
+#allpics img {
+  position: absolute;
+  left: 0;
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+}
+
+#allpics img.display {
+  opacity: 1;
+}

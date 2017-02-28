@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Explain JS remove class to fade in content-->
+
+<!--
+  Final project descriptions should contain 
+  date range ex april 20- may 20 
+  one to three sentences explaining 
+-->
+
+<head>
+    <meta charset="utf-8">
+    <title>JS-CSS</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+  <body class="blackScreen" onload="fade2Content();"> <!-- onload is an html event listener -->
+    <div id="wrapper">
+      <div id= "allpics">
+        <img class="display" src="img/ful_blank.png" alt="blank">
+        <img src="img/ful_pisces.png" alt="Pisces">
+        <img src="img/ful_scorpio.png" alt="Scorpio">
+        <img src="img/ful_aquarius.png" alt="Aquarius">
+      </div>
+      <hr>
+      <div>
+        <img id="pis" src="img/sml_pisces.png" alt="pisces">
+        <img id="sco" src="img/sml_scorpio.png" alt="scorpio">
+        <img id="aqu" src="img/sml_aquarius.png" alt="aquarius">
+      </div>
+      <hr>
+      <p>Zodiac image by Tatiana from the Noun Project</p>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+
+</html>
